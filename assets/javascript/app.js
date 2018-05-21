@@ -18,7 +18,7 @@ $(document).ready(function(){
         }, 800);
     })
 
-    $(".lead-in").fadeOut(function() {
+    $("#lead-in").fadeOut(function() {
         $(this).text("Web Developer & Designer")
       }).fadeIn({'opacity': 1}, 8000);
 
@@ -26,16 +26,5 @@ $(document).ready(function(){
         console.log("buttonClick");
         window.location.href = "mailto:elviracbarrientos@gmail.com?subject=Subject&body=message%20goes%20here"; 
       });
-
-
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
       
-
 });
