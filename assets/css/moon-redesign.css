@@ -235,24 +235,15 @@ a:active {
             color: #371963;
         }
 
-       a {
+        .navbar-brand{
         margin-top: 10%;
-        margin-left: 1%;
-        position: relative;
-       }
+        }
 
-       .topnav{
-        margin-top: 10%;
-        margin-left: 1%;
-        position: relative;
 
-       }
-
-       .nav-item {
-        margin-top: 10%;
-        margin-left: 1%;
-        position: relative;
-       }
+        a {
+            margin-right: 10px;
+        }
+   
 
         #projects-title{
             margin-top: 100px;
