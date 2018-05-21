@@ -1,12 +1,5 @@
-$(document).ready(function(){
+$(document).ready(function(){   
 
-    //hide navbar if mobile 
-    var width = $(window).width();
-    if(width < 768) {
-        $(".topnav").hide();
-    }
-    
-      
       // Smooth scrolling for nav links
       $(".about-click").click(function() {
         $("html, body").animate({
