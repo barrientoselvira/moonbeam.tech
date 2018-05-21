@@ -1,4 +1,11 @@
 $(document).ready(function(){
+
+    //hide navbar if mobile 
+    var width = $(window).width();
+    if(width < 768) {
+        $(".topnav").hide();
+    }
+    
       
       // Smooth scrolling for nav links
       $(".about-click").click(function() {
@@ -26,5 +33,7 @@ $(document).ready(function(){
         console.log("buttonClick");
         window.location.href = "mailto:elviracbarrientos@gmail.com?subject=Subject&body=message%20goes%20here"; 
       });
+
+      
       
 });
