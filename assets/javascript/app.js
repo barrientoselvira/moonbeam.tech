@@ -1,4 +1,6 @@
-$(document).ready(function(){   
+$(document).ready(function(){
+    
+    
 
       // Smooth scrolling for nav links
       $(".about-click").click(function() {
