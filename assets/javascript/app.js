@@ -26,6 +26,16 @@ $(document).ready(function(){
         console.log("buttonClick");
         window.location.href = "mailto:elviracbarrientos@gmail.com?subject=Subject&body=message%20goes%20here"; 
       });
+
+
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
       
 
 });
