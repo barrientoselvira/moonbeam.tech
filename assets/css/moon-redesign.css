@@ -241,6 +241,13 @@ a:active {
         position: relative;
        }
 
+       .topnav{
+        margin-top: 10%;
+        margin-left: 1%;
+        position: relative;
+
+       }
+
         #projects-title{
             margin-top: 100px;
             font-family: 'Alfa Slab One', cursive;
