@@ -238,6 +238,7 @@ a:active {
        a {
         margin-top: 10%;
         margin-left: 1%;
+        position: relative;
        }
 
         #projects-title{
