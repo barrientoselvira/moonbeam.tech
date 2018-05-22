@@ -28,6 +28,10 @@ a:active {
     color: #370DF4;
 }
 
+.navbar {
+    background-color: #202DFC;
+}
+
 /* Header */
 #moon-background {
     right: 0;
