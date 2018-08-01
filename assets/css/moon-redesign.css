@@ -73,16 +73,18 @@ a:active {
 /* About Section */
 
  #about-title{
-     color: white;
-     font-size: 72px;
+     color: #311070;
+     /* color: white; */
+     font-size: 300px;
      font-family: 'Alfa Slab One', cursive;
      padding: 5%;
+     margin: 1%;
  }
 
 .abouttitle-liveshere {
     background-color: #461094; 
-    width: 60%;
-    height: 400px;
+    width: 100%;
+    height: 300px;
 }
 
 #about-me {
@@ -104,6 +106,7 @@ a:active {
 .abouttalk-container{
 
     /* background-color: #F8F6FB; */
+    margin-top: 80px;
     width: 60%;
     padding: 20px;
     height: 450px;
