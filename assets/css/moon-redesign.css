@@ -100,6 +100,7 @@ a:active {
     font-size: 24px;
     width: 100%;
     text-align: center;
+    margin-bottom: 5%;
 }
 
 #about-talk {
@@ -134,8 +135,6 @@ a:active {
     color: #461094;
     text-align: center;
 }
-
-
 
 
 /* Projects */
